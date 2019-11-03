@@ -1,0 +1,21 @@
+﻿<h1>Counter</h1>
+
+<p>Current count: @_startingCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+
+    private int _startingCount = 0;
+
+    [Parameter] public string StartingCount
+    {
+        get => _startingCount.ToString();
+        set => _startingCount = int.Parse(value);
+    }
+
+    void IncrementCount()
+    {
+        _startingCount++;
+    }
+}

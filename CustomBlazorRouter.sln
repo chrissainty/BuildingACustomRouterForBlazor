@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.138
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomBlazorRouter", "CustomBlazorRouter\CustomBlazorRouter.csproj", "{6B1BAF27-137D-4129-82FC-3F1F71637712}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B1BAF27-137D-4129-82FC-3F1F71637712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1BAF27-137D-4129-82FC-3F1F71637712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1BAF27-137D-4129-82FC-3F1F71637712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1BAF27-137D-4129-82FC-3F1F71637712}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A76E141-BFF7-4B08-9FEA-3A1E96290E20}
+	EndGlobalSection
+EndGlobal
